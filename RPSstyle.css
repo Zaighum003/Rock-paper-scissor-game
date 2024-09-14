@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+h1{
+    background-color: rgb(16, 4, 86);
+    color: white;
+    line-height: 5rem;
+}
+.choice{
+height: 220px;
+width:220px;
+object-fit: cover;
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.choice:hover{
+    background-color: black;
+    opacity: 0.5;
+}
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:2rem;
+    margin-top: 3rem;
+    
+
+}
+img{
+    height:200px;
+    width:200px;
+    border-radius: 50%;
+}
+/* #scorecard{
+    margin-top: 5rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 2rem;
+} */
+#scorecard {
+    width: 200px;
+    padding: 20px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    align-items: center;
+    justify-content: center;
+}
+
+#scorecard p {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #333;
+}
+
+#yourscore, #compscore {
+    font-size: 24px;
+    font-weight: bold;
+    color: #007BFF;
+}
+
+#scorecard p:first-of-type {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#scorecard p:nth-of-type(3) {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#msg{
+    background-color: rgb(117, 121, 5);
+    color: white;
+    align-items: center;
+    font-size: 2rem;
+    display: inline;
+    border-radius:1rem;
+    padding:1rem;
+    
+}
+.msgbox{
+    margin-top: 2rem;
+}
+.scorecard-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
